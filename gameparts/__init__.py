@@ -1,3 +1,4 @@
 # Точка в записи означает текущий каталог.
 from .parts import Board
 from .exceptions import FieldIndexError, CellOccupiedError
+from .display import draw_lines, draw_figures
